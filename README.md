@@ -1,6 +1,11 @@
 # Gemini_Explorer
+## Create Account and project
+Create Google Cloud account by signing into https://console.cloud.google.com/
+Create a project
+Install Google Cloud SDK
+
 ## Install Required Packages:
-pip install streamlit vertexai
+pip install streamlit 
 ## Verify the Project ID:
 Go to the Google Cloud Console.
 Click on "IAM & Admin" > "Settings".
