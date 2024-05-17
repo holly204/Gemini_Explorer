@@ -9,17 +9,21 @@ Note the "Project ID" (not the project name). This is the ID you need to use in 
 In the Google Cloud Console, go to "APIs & Services" > "Library".
 Search for "Vertex AI" and ensure that the Vertex AI API is enabled for your project.
 ## Check IAM Permissions:
-Go to "IAM & Admin" > "IAM".
+In the Google Cloud Console, Go to "IAM & Admin" > "IAM".
 Ensure that your account has roles like Vertex AI User or Vertex AI Admin.
 
 ## Authenticate with Google Cloud:
+open VSC and run: 
 gcloud auth application-default login
 
 ## Set Your Google Cloud Project:
+In the VSC run: 
 gcloud config set project your-project-id
 
 ## Verify Authentication:
+In the VSC run: 
 gcloud auth application-default print-access-token
 
 ## Run Your Streamlit Application:
+In the VSC run: 
 streamlit run gemini_explorer.py
