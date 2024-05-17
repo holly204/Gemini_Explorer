@@ -15,3 +15,11 @@ Ensure that your account has roles like Vertex AI User or Vertex AI Admin.
 ## Authenticate with Google Cloud:
 gcloud auth application-default login
 
+## Set Your Google Cloud Project:
+gcloud config set project your-project-id
+
+## Verify Authentication:
+gcloud auth application-default print-access-token
+
+## Run Your Streamlit Application:
+streamlit run gemini_explorer.py
